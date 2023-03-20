@@ -1,0 +1,205 @@
+/*Partie Index*/
+html, body{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-family: "Comic Sans MS", "Helvetica", sans-serif;
+}
+.header{
+    background-color: rgb(82, 60, 64);
+    padding: 20px;
+    height: 700px;
+    color: rgb(190, 124, 124);
+    z-index: 2;
+    background-image: linear-gradient(to bottom,#000, #0008),url("images/banniere-restaurant.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%, cover;
+    background-attachment: local, fixed;
+    
+}
+.header img{
+    width: 100%;
+    height: auto;
+}
+.header-nav{
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: center;
+    z-index: 3;
+    width: 111%;
+    
+}
+.header-nav a {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+    color: inherit;
+    text-decoration: none;
+    background-color: rgb(244, 240, 237,0.2);
+}
+.header-nav a:hover{
+   
+    text-decoration: underline;
+    background-color: rgb(244, 240, 237,0.4);
+}
+.header-title{
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+    text-transform: capitalize;
+    z-index: 4;
+    
+}
+.main{
+    position: relative;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 16px;
+    z-index: 1;
+    
+}
+.main p{
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    right: 0;
+    display: block;
+}
+
+.footer{
+    background-color: azure;
+    padding: 10px 20px;
+}
+.button {
+    color: rgb(93, 41, 41);
+    background-color: rgb(181, 142, 136);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 110px;
+    position: absolute;
+    top: auto;
+    left: 40%;
+    right: 0;
+   
+}
+.post-header{
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    right: 0;
+    display: block;
+
+}
+
+.post-header1{
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    right: 0;
+    display: block;
+
+}
+
+
+/*Partie Menu*/
+  
+  .main1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    left: -40%;
+  }
+  
+  .entree, .plat, .dessert {
+    flex-basis: calc(33.33% -50px);
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    
+  }
+  .header1{
+    background-color: rgb(82, 60, 64);
+    padding: 20px;
+    height: 800px;
+    color: rgb(190, 124, 124);
+    z-index: 2;
+    background-image: linear-gradient(to bottom,rgb(188, 185, 185), #0008),url("images/lemenu.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%, cover;
+    background-attachment: local, fixed;
+    
+}
+.album-entree{
+    text-align: center;
+   
+}
+
+.table-entree{
+  
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#overlay{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    padding-top:8% ;
+}
+#overlay img 
+{
+    width: 50%;
+    height: 90%;
+    border-radius: 20%;
+    border: double white 5px;
+}
+/*Partie Contact*/
+.header2{
+    background-color: rgb(82, 60, 64);
+    padding: 20px;
+    height: 800px;
+    color: rgb(190, 124, 124);
+    z-index: 2;
+    background-image: linear-gradient(to bottom,rgb(55, 50, 50), #0008),url("images/lieu.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%, cover;
+    background-attachment: local, fixed;
+    
+}
+.section{
+    text-align: center;
+}
+
+/*Partie Reservation*/
+.section1{
+    text-align: center;
+    padding: 100px;
+    margin: 20px;
+    display: block;
+
+}
+
+.section1 div {
+    text-align: center;
+    padding: 10px;
+   
+}
+.section1 input{
+    text-align: center;
+}
